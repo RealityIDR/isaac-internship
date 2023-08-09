@@ -135,12 +135,14 @@ const ExploreItems = () => {
       )}
 
       {itemQuantity !== 16 && (
-        <div className="col-md-12 text-center">
+        <div className="col-md-12 text-center" data-aos="fade-in" data-aos-duration="500" data-aos-delay="500">
           <Link
             to=""
             id="loadmore"
             className="btn-main lead"
             onClick={loadMoreItems}
+            data-aos="fade-up"
+            data-aos-duration="1000"
           >
             Load more
           </Link>
